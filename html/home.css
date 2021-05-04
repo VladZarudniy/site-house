@@ -1,0 +1,19 @@
+.menu-h{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 50px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.home{
+
+}
+.about{
+
+}
+.item-m{
+    border-color: black;
+    
+}
