@@ -72,19 +72,52 @@
     margin-right:50px ;
     margin-left: 50px;
 }
-/* .l-box-1:visited{
-    color: red;
-}
-.l-box-2:visited{
-    color: red;
-}
-.l-box-3:visited{
-    color: red;
-} */
 .line{
     border-color: rgb(120, 120, 120);
-    /* position:absolute; */
     width:30%;
     top: 50%;
     margin-top: 30px;
+}
+.fotter{
+    background-color: black;
+    /* border-radius: 15px; */
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   /* height:30px; */
+   width:100%;
+}
+.fotter-m{
+
+}
+.contact-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.all-contact{
+    display: flex;
+    flex-direction:column;
+    margin:0 auto;
+}
+.con{
+
+}
+.text2{
+    color: white;
+    size: 20px  ;
+}
+/* display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 50px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: black;
+    border-radius: 15px; */
+
+.flex-end{
+
 }
