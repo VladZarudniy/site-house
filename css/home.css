@@ -31,8 +31,19 @@
 
 }
 .box{
-
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 50px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: black;
+    border-radius: 15px;
 }
 .text{
-    color: black;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+.box:hover{
+    background-image:url() ;
 }
