@@ -43,14 +43,26 @@
     background-color: black;
     border-radius: 15px;
     padding: 15px;
-    width: 200px;
+    width: 30%;
+    height: auto;
 }
 .text{
     color: white;
     font-family: 'Rubik', sans-serif;
 }
-.box:hover{
-    background-image:url() ;
+.b1:hover{
+    background-image:url(../img/valorant.jpeg) ;
+    transition: .3s linear all;
+
+}
+.b2:hover{
+    background-image: url(../img/fortnite.jpeg);
+    transition: .3s linear all;
+
+}
+.b3:hover{
+    background-image: url(../img/cs-go.jpeg);
+    transition: .3s linear all;
 }
 .f-boxes{
     display: flex;
@@ -60,9 +72,15 @@
     margin-right:50px ;
     margin-left: 50px;
 }
-.l-box:visited{
-    color: rgb(129, 102, 252);
+/* .l-box-1:visited{
+    color: red;
 }
+.l-box-2:visited{
+    color: red;
+}
+.l-box-3:visited{
+    color: red;
+} */
 .line{
     border-color: rgb(120, 120, 120);
     /* position:absolute; */
